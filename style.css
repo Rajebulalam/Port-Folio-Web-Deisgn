@@ -1,0 +1,80 @@
+/* Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+/* Strat Typography */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    line-height: 1.5em;
+}
+p{
+    line-height: 1.3em;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    transition: 0.3s;
+}
+.container{
+    max-width: 1140px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+/* End Typography */
+
+
+/* Start Header Part */
+
+#header-area{
+    width: 100%;
+    padding: 20px 0;
+    overflow: hidden;
+    background-color: #00204a;
+}
+#header-area .inner-header{
+    padding: 0 2%;
+}
+#header-area .inner-header .child-header{
+    max-width: 570px;
+    width: 50%;
+    float: left;
+}
+#header-area .inner-header .child-header a{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+#header-area .inner-header .child-header ul{
+    text-align: right;
+}
+#header-area .inner-header .child-header ul li{
+    display: inline-block;
+    padding: 13px 0;
+    padding-left: 15px;
+}
+#header-area .inner-header .child-header ul li:first-child{
+    padding-left: 0;
+}
+#header-area .inner-header .child-header ul li a{
+    font-size: 1rem;
+    font-weight: bold;
+}
+#header-area .inner-header .child-header ul li a:hover{
+    text-decoration: underline;
+}
+
+/* End Header Part */
