@@ -72,9 +72,15 @@ a{
 #header-area .inner-header .child-header ul li a{
     font-size: 1rem;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 #header-area .inner-header .child-header ul li a:hover{
     text-decoration: underline;
+    color: #29de92;
+}
+#header-area .inner-header .child-header ul li.active a{
+    text-decoration: underline;
+    color: #29de92;
 }
 
 /* End Header Part */
